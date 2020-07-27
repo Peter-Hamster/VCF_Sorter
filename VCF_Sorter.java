@@ -194,7 +194,6 @@ public class VCF_Sorter {
 			System.out.println("Please give the name of VCF file:--> ");
 			Scanner stdin1 = new Scanner(System.in);
 			filename = stdin1.nextLine();
-//			filename = "RS2009_Sample_Short.txt";
 			
 			ArrayList<SV> SV_list = build_SV_list(filename);
 
